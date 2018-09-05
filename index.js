@@ -1,4 +1,4 @@
 // Code your solution in this file.
-function lowerCaseDrivers(){
-  
+function lowerCaseDrivers(list){
+  return list.map((name)=> name.toLowerCase())
 }
